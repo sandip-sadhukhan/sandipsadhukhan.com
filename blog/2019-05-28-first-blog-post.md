@@ -6,6 +6,7 @@ authors:
   title: Docusaurus Core Team
   url: https://github.com/wgao19
   image_url: https://github.com/wgao19.png
+image: https://i.imgur.com/mErPwqL.png
 tags: [hola, docusaurus]
 ---
 

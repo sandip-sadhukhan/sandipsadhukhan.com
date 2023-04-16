@@ -35,7 +35,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        docs: false,
         blog: {
+          routeBasePath: "/",
           showReadingTime: true,
         },
         theme: {
@@ -57,7 +59,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'right'},
+          {to: '/about', label: 'About', position: 'right'},
         ],
       },
       footer: {
