@@ -8,6 +8,13 @@ hide_table_of_contents: false
 date: 2021-09-13T10:00
 ---
 
+<head>
+  <title>Head Metadata customized title!</title>
+  <meta charSet="utf-8" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://docusaurus.io/docs/markdown-features/head-metadata" />
+</head>
+
 Welcome to this blog. This blog is created with [**Docusaurus 2**](https://docusaurus.io/).
 
 <!--truncate-->
@@ -16,7 +23,7 @@ This is my first post on Docusaurus 2.
 
 A whole bunch of exploration to follow.
 
-## Hello
+## Code blocks
 ```sql
 db=# CREATE TABLE payment (
     id      INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -27,8 +34,14 @@ db=# CREATE TABLE payment (
 CREATE TABLE
 ```
 
-### Noob
-l
+```python
+for i in range(22, 333):
+    print("hello")
+    # highlight-start
+    for j in range(33, 33):
+        print(i, j)
+    # highlight-end
+```
 
 ### My Doc Section
 
@@ -36,7 +49,7 @@ Hello world message with some **bold** text, some _italic_ text, and a [link](/)
 
 ![img alt](/img/docusaurus.png)
 
-# quotes
+## Quotes
 
 > Easy to maintain open source documentation websites.
 >
@@ -57,3 +70,57 @@ Hello world message with some **bold** text, some _italic_ text, and a [link](/)
     </details>
   </div>
 </details>
+
+---
+
+## Tabs
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="apple" label="Apple" default>
+    This is an apple 🍎
+  </TabItem>
+  <TabItem value="orange" label="Orange">
+    This is an orange 🍊
+  </TabItem>
+  <TabItem value="banana" label="Banana">
+    This is a banana 🍌
+  </TabItem>
+</Tabs>
+
+## Admonitions
+:::note How to do this?
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+:::
+:::tip
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::info
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::caution
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::danger
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
