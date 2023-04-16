@@ -39,6 +39,8 @@ const config = {
         blog: {
           routeBasePath: "/",
           showReadingTime: true,
+          blogTitle: "Sandip Sadhukhan's Blog: Insights on Django and ReactJS",
+          blogDescription: "Welcome to Sandip Sadhukhan's blog, where I share my expertise and insights on web development with Django and ReactJS."
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
