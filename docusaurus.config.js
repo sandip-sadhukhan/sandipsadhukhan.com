@@ -55,10 +55,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Sandip Sadhukhan',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/sandip-sadhukhan.jpeg',
         },
         items: [
           {to: '/about', label: 'About', position: 'right'},
@@ -73,6 +73,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [
+        {  
+          name: "description",
+          content: "Welcome to Sandip Sadhukhan's blog, where I share my expertise and insights on web development with Django and ReactJS."
+        },
+      ]
     }),
 };
 
