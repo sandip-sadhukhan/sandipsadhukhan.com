@@ -26,9 +26,9 @@ export default function Home(): JSX.Element {
                 className="pills__item pills__item--active"
                 style={{ borderRadius: "20px" }}
               >
-                Full stack web developer
+                Software Enginner
               </span>{" "}
-              at Tutorify.
+              at Instahyre.
             </p>
             <p
               className="hero__subtitle"
@@ -119,7 +119,7 @@ export default function Home(): JSX.Element {
 
           <div className="row margin-bottom--lg">
             <div className="col col--4">
-              <div className="card" style={{height: "100%"}}>
+              <div className="card" style={{ height: "100%" }}>
                 <div className="card__image">
                   <img
                     src="/img/projects/mocktest-shop.jpg"
@@ -166,19 +166,20 @@ export default function Home(): JSX.Element {
             </div>
 
             <div className="col col--4">
-              <div className="card" style={{height: "100%"}}>
+              <div className="card" style={{ height: "100%" }}>
                 <div className="card__image">
-                  <img
-                    src="/img/projects/7resume.jpg"
-                    alt="7resume.com"
-                  />
+                  <img src="/img/projects/7resume.jpg" alt="7resume.com" />
                 </div>
                 <div className="card__body">
                   <h4 style={{ textAlign: "center" }}>
                     Build your resume without Coding
                   </h4>
                   <small>
-                    7Resume is a platform that enables anyone to easily create a professional online portfolio without any coding skills. Showcase your skills and experience with customizable templates, and stand out in your field with an impressive online presence.
+                    7Resume is a platform that enables anyone to easily create a
+                    professional online portfolio without any coding skills.
+                    Showcase your skills and experience with customizable
+                    templates, and stand out in your field with an impressive
+                    online presence.
                   </small>
 
                   <div
@@ -209,14 +210,14 @@ export default function Home(): JSX.Element {
                     target="_blank"
                     className="button button--primary button--outline button--block margin-top--sm"
                   >
-                  Source code
+                    Source code
                   </Link>
                 </div>
               </div>
             </div>
 
             <div className="col col--4">
-              <div className="card" style={{height: "100%"}}>
+              <div className="card" style={{ height: "100%" }}>
                 <div className="card__image">
                   <img
                     src="/img/projects/digital-routine.jpg"
@@ -224,11 +225,14 @@ export default function Home(): JSX.Element {
                   />
                 </div>
                 <div className="card__body">
-                  <h4 style={{ textAlign: "center" }}>
-                  Digital Routine
-                  </h4>
+                  <h4 style={{ textAlign: "center" }}>Digital Routine</h4>
                   <small>
-                    Our platform provides a comprehensive dashboard where you can create and manage your digital routine. With easy scheduling tools, you can add classes and build your daily routine. Once complete, your routine is accessible via a unique public URL, perfect for sharing with classmates, students or personal use.
+                    Our platform provides a comprehensive dashboard where you
+                    can create and manage your digital routine. With easy
+                    scheduling tools, you can add classes and build your daily
+                    routine. Once complete, your routine is accessible via a
+                    unique public URL, perfect for sharing with classmates,
+                    students or personal use.
                   </small>
 
                   <div
@@ -259,7 +263,7 @@ export default function Home(): JSX.Element {
                     target="_blank"
                     className="button button--primary button--outline button--block margin-top--sm"
                   >
-                  Source code
+                    Source code
                   </Link>
                 </div>
               </div>
