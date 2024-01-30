@@ -46,7 +46,7 @@ export default function Home(): JSX.Element {
                 alignItems: "center",
               }}
             >
-              <Link href="https://github.com/sandippakhanna" target="_blank">
+              <Link href="https://github.com/sandip-sadhukhan" target="_blank">
                 <BsGithub style={{ color: "gray" }} />
               </Link>
               <Link
@@ -199,14 +199,14 @@ export default function Home(): JSX.Element {
                 </div>
                 <div className="card__footer">
                   <Link
-                    href="https://7resume.com/"
+                    href="https://resume-bus.vercel.app/"
                     target="_blank"
                     className="button button--primary button--block"
                   >
                     Visit
                   </Link>
                   <Link
-                    href="https://github.com/sandippakhanna/7resume"
+                    href="https://github.com/sandip-sadhukhan/7resume"
                     target="_blank"
                     className="button button--primary button--outline button--block margin-top--sm"
                   >
@@ -259,7 +259,7 @@ export default function Home(): JSX.Element {
                     Visit
                   </Link>
                   <Link
-                    href="https://github.com/sandippakhanna/dynamic_routine_maker"
+                    href="https://github.com/sandip-sadhukhan/dynamic_routine_maker"
                     target="_blank"
                     className="button button--primary button--outline button--block margin-top--sm"
                   >
